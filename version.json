@@ -1,11 +1,11 @@
 {
-  "versionName": "1.2.17",
-  "buildNumber": 2057,
-  "changelog": "• Ambient Screensaver Crash Fix: Resolved Google TV / Android TV screensaver sleep timeout during continuous video playback by engaging native window keep-screen-on and persistent wake-locks across all platforms.\n• Leanback Orientation Stability: Strictly locked Leanback TV devices to landscape orientations, preventing activity destruction on player entrance/exit.\n• ExoPlayer Robustness: Complete exception isolation on ExoPlayer event loop with graceful completion handling.\n• Instant Live Sports Recovery: Bypassed movie VOD resolver on live sports reconnects, auto-advancing to live mirrors seamlessly.\n• Player Engine Resource Shield: Explicit MediaKit stream listener cleanup and safe controller teardown to eliminate memory leaks.",
+  "versionName": "1.2.18",
+  "buildNumber": 2058,
+  "changelog": "• Live Streams & Sports Feeds Restoration: Purged dead legacy server pools and restored verified 1080p/720p 60FPS sports feeds (DraftKings, CBS Sports Golazo, NBC Sports, ACC Digital, FTF Sports, FITE Combat, beIN Sports, SEC Network, Big Ten Network, NBA TV, MLB Strike Zone, Tennis Channel, YES Network, MSG Network).\n• Web PWA Media Pipeline Overhaul: Fixed HLS.js error recovery loop to enable instant sub-second failover across mirrors on Web, and prioritized CORS-enabled HTTPS streams to prevent mixed-content blocks.\n• Snappy Mirror Failover: Lowered live stream init timeout to 8 seconds for fast, responsive recovery without freezing on dead feeds.",
   "downloads": {
-    "arm64-v8a": "https://github.com/bpagan10/HaloSphere-Releases/releases/download/v1.2.17/hs64.apk",
-    "armeabi-v7a": "https://github.com/bpagan10/HaloSphere-Releases/releases/download/v1.2.17/hs32.apk",
-    "x86_64": "https://github.com/bpagan10/HaloSphere-Releases/releases/download/v1.2.17/hsx64.apk"
+    "arm64-v8a": "https://github.com/bpagan10/HaloSphere-Releases/releases/download/v1.2.18/hs64.apk",
+    "armeabi-v7a": "https://github.com/bpagan10/HaloSphere-Releases/releases/download/v1.2.18/hs32.apk",
+    "x86_64": "https://github.com/bpagan10/HaloSphere-Releases/releases/download/v1.2.18/hsx64.apk"
   },
-  "releaseDate": "2026-09-10"
+  "releaseDate": "2026-09-11"
 }
